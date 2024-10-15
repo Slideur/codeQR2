@@ -51,6 +51,9 @@ h6 {
 
 body {
 	background-color: #d5e1ef;
+}
+
+.container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -58,15 +61,7 @@ body {
 	min-height: 100svh;
 }
 
-/* .container {
-	
-} */
-
 main {
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center; */
 	max-width: 20rem;
 	background-color: #ffffff;
 	font-family: "Outfit", sans-serif;
@@ -96,9 +91,4 @@ p {
 	font-weight: 400;
 	padding-left: 16px;
 	padding-right: 16px;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
 }
